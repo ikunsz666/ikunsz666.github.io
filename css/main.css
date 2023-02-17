@@ -1,0 +1,10 @@
+*{
+    margin:0
+}
+div.main{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(to bottom right,#8e8eff,white);
+}
+h1.title {color:white;text-align: left;}
