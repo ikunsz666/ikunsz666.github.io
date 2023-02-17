@@ -1,10 +1,37 @@
 *{
-    margin:0
+    margin: 0;/*清除外边距*/
+    padding: 0;/*清除内边距*/
+    list-style: none;/*删除<li>标签生成的点*/
 }
-div.main{
-    position: absolute;
-    height: 100%;
-    width:100%;
-    background-image: linear-gradient(to bottom right,#8e8eff,white);
+body{
+    background-image: url('https://static.runoob.com/images/mix/gradient2.png');/*插入背景图片*/
+    background-repeat: repeat-x;/*让背景图仅在x轴重复*/
+    display: flex;/*设置为弹性盒*/
+    justify-content: center;/*导航栏居中*/
 }
-h1.title {color:white;text-align: left;}
+#ulfather{
+    display: flex;/*设置为弹性盒*/
+    background-color: rgb(40, 44, 100);/*设置栏目背景为深紫色*/
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, .7);/*阴影效果*/
+    border-radius: 5px;/*圆角效果*/
+    width: 700px;/*导航栏宽度*/
+    height: 30px;/*导航栏长度*/
+    line-height: 30px;/*文字垂直居中*/
+}
+.lifather{
+    width: 140px;/*每个栏目占宽70像素，把350像素的导航栏5等分*/
+    text-align: center;/*文字水平居中*/
+    color: rgb(160, 160, 230);/*设置字体颜色为浅紫色*/
+}
+.ulson{
+    background-color: rgb(100, 100, 100, .5);/*设置子栏背景为半透明灰色*/
+    border-radius: 0px 0px 5px 5px;/*圆角效果*/
+    color: rgb(250, 250, 250);/*设置字体颜色为白色*/
+    display: none;/*初始状态为隐藏*/
+}
+.lifather:hover .ulson{
+    display: block;
+}
+.lison:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
