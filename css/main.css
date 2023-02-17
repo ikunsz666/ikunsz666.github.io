@@ -4,7 +4,12 @@
     list-style: none;/*删除<li>标签生成的点*/
 }
 body{
-    background-image: url('https://static.runoob.com/images/mix/gradient2.png');/*插入背景图片*/
+    background-image: linear-gradient(lightblue,white);
+    background-repeat:no-repeat ; 
+    background-size:100% 100%; 
+    background-attachment: fixed;
+}
+div.menu{background-color: lightblue;/*插入背景图片*/
     background-repeat: repeat-x;/*让背景图仅在x轴重复*/
     display: flex;/*设置为弹性盒*/
     justify-content: center;/*导航栏居中*/
