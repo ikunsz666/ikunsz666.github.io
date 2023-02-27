@@ -1,0 +1,21 @@
+{
+  "cd": 0,
+  "cdmod": "wait",
+  "cdstring": "太...太快啦! 等我{time}秒行不行?AwQ",
+  "use-permisson": "admins",
+  "recall-time": 10,
+  "random-api": [
+    "http://www.dmoe.cc/random.php",
+    "http://img.xjh.me/random_img.php?return=302",
+    "https://api.vvhan.com/api/acgimg",
+    "https://api.yimian.xyz/img",
+    "https://api.anosu.top/api",
+    "https://api.ixiaowai.cn/api/api.php",
+    "https://api.ixiaowai.cn/api/api2.php",
+    "https://img.paulzzh.tech/touhou/random",
+    "https://api.dujin.org/pic/yuanshen/"
+  ],
+  "command": [
+    "来张图"
+  ]
+}
