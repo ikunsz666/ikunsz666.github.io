@@ -26,18 +26,6 @@ nav {
   background-color: #ade0d3;
 }
 
-h1 {
-  font-size: 48px;
-  line-height: 1.2;
-  margin: 0;
-  text-align: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
 .gradient-text {
   background-image: linear-gradient(to bottom right, #FF355E, #3A7EEF);
   -webkit-background-clip: text;
