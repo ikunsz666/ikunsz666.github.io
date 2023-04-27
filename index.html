@@ -1,63 +1,31 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="坤の圣地">
-        <title>坤の圣地</title>
-        <script>
-            function fun(){
-                number=Math.round(Math.random()*1000)
-                window.location.href="https://ikunsz666.github.io/img/"+number+".jpg"
-            }
-        </script>
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-        <div class="menu">
-        <ul id="ulfather"><!--创建父列-->
-            <li class="lifather">
-                <h4>关于</h4>
-                <ul class="ulson">
-                    <li class="lison">关于</li>
-                </ul>
-            </li>
-            <li class="lifather">
-                <h4>功能</h4>
-                <ul class="ulson">
-                    <li class="lison">获取随机坤图！</li>
-                </ul>
-            </li>
-            <li class="lifather">
-                <h4>加群</h4>
-                <ul class="ulson">
-                    <li class="lison">QQ审核群</li>
-                </ul>
-            </li>
-            <li class="lifather">
-                <h4>鸣谢</h4>
-                <ul class="ulson">
-                    <li class="lison">鸣谢名单</li>
-                </ul>
-            </li>
-            <li class="lifather">
-                <h4>禁地</h4>
-                <ul class="ulson">
-                    <li class="lison">请勿进入！</li>
-                </ul>
-            </li>
-        </ul>
-        </div>
-        <div style="height:128px"></div>
-        <b style="background-image:linear-gradient(90deg,#ff0000,#2575fc);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-            <h1 style="text-align: center;font-size:300%">坤の圣地
-        </b></h1>
-        <b style="background-image:linear-gradient(90deg,#2575fc,#00FF00);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-            <h1 style="text-align: center;font-size:100%">--坤の圣地 小黑子之家--
-        </b></h1>
-        <button style="background-color:lightblue;color:red;border-radius:10px;height:4%;width:auto" onclick="fun()">获取随机坤图！</button>
-        <p>这是一个测试页面，网站还未完成。</p>
-        <audio autoplay="autoplay" loop controls>
-            <source src="/audio/ikun01.mp3">
-        </audio>
-    </body>
+  <head>
+    <title>坤の圣地</title>
+    <style>
+      /* 设置页面背景为清新的渐变色 */
+      body {
+        background: linear-gradient(135deg, #60D5E9, #3A7EEF);
+      }
+
+      /* 设置 h1 标签颜色和字体 */
+      h1 {
+        font-size: 48px;
+        font-family: sans-serif;
+        line-height: 1.2;
+        margin: 0;
+      }
+
+      /* 设置坤の圣地文本填充为背景渐变色 */
+      .gradient-text {
+        background-image: linear-gradient(135deg, red, blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 页面内容 -->
+    <h1><span class="gradient-text">坤の圣地</span></h1>
+  </body>
 </html>
