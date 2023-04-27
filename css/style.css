@@ -78,47 +78,6 @@
             }
         }
 
-        /* 新增样式 */
-        #home-buttons {
-            display: flex;
-            justify-content: space-between;
-            padding: 0 20px;
-            margin-top: 50px;
-        }
-
-        #home-buttons button {
-            width: calc(33.33% - 10px);
-            height: 50px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            font-weight: bold;
-            color: white;
-            background-color: #dde28d;
-            cursor: pointer;
-            transition: all 0.3s ease-in-out;
-        }
-
-        /* 新增样式 */
-        #home-buttons button:first-child {
-            margin-right: 10px;
-        }
-
-        /* 新增样式 */
-        #home-buttons button:last-child {
-            margin-left: 10px;
-        }
-
-        #home-buttons button:hover {
-            background-color: #f44336;
-        }
-
-        /* 页面特定样式 */
-        #home,
-        #features,
-        #join {
-            z-index: 1; /* 让三个 div 位于最上层 */
-        }
 
         #features,
         #join {
